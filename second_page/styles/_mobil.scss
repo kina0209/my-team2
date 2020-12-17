@@ -1,0 +1,113 @@
+@media only screen and (max-width:768px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .header{
+        .header_bottom{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 122px 0 112px 0;
+            &__left{
+                h1{
+                    padding: 0;
+                    padding-bottom: 25px;
+                    margin: 0;
+                }
+            }
+            &__right{
+                padding: 0 90px;
+                p{
+                    top: 0;
+                    padding: 0;
+                    margin: 0;
+                    text-align: center;
+                    &::before{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .main{
+        padding: 100px 0 128px 0;
+        box-sizing: border-box;
+        h2{
+            font-size: 32px;
+        }
+        .main_inner__item{
+            padding-top: 48px;
+            justify-content: center;
+            &--article{
+                width: 281px;
+                margin-left: 11px;
+            }
+        }
+    }
+    .section{
+        padding: 100px 0;
+        background-position-y: -100px;
+        h2{
+            font-size: 32px;
+        }
+        .section_inner__bottom{
+            justify-content: space-around;
+            img{
+                padding: 50px 0 0 0 ;
+                width: 110px;
+                height: 30px;
+            }
+        }
+    }
+    .aside{
+        background-position-y: 74px;
+        .aside_inner{
+            h2{
+                font-size: 32px;
+            }
+        }
+    }
+    .footer{
+        justify-content: space-between;
+        position: relative;
+        padding: 56px 0 100px 0;
+        .footer_inner{
+            &__left{
+                margin: 0;
+                padding: 0;
+                .logo{
+                    padding-bottom: 53px;
+                }
+            }
+            &__midle{
+                margin: 0;
+                h6{
+                    position: absolute;
+                    right: 25px;
+                    text-align: end;
+                }
+            }
+            &__right{
+                h6{
+                    position: absolute;
+                    right: 25px;
+                    top: 210px;
+                }
+                .social{
+                    position: absolute;
+                    left: 0;
+                    top: 210px;
+                    left: 10px;
+                }
+            }
+        }
+    }
+}

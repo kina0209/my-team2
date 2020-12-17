@@ -1,0 +1,162 @@
+
+@media only screen and (max-width: 768px){
+    .header{
+        width: 100%;
+        max-width: 768px;
+        background: none;
+        background-color: #014e56;
+        background-position-x: center;
+        background-position-y: bottom;
+        background-image: url('../mobil_image/Group\ 7.png');
+        background-repeat: no-repeat;
+        .container{
+            margin: 0 auto;
+            padding-top: 0 15px;
+            width: 100%;
+            max-width: 720px;
+            background: none;
+            box-sizing: border-box;
+        }
+        .header_bottom{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .header_bottom__left{
+                display: flex;
+                justify-content: flex-end;
+                margin-left: auto;
+                margin-right: auto;
+                align-items: center;
+                h1{
+                    text-align: center;
+                    line-height: 60px;
+                    margin-bottom: 24px;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 64px;
+                    line-height: 56px;
+                }
+            }
+            .header_bottom__right{
+                p{
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 28px;
+                    &::before{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+        .section_one{
+            background-position: right top;
+            .container{
+                padding: 0;
+                flex-direction: column;
+                .left{
+                    margin-left: 96px;
+                    h2{
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 32px;
+                        line-height: 32px;
+                        padding-top: 136px;
+                        padding-bottom: 64px;
+                        &::before{
+                            top: 104px;
+                        }
+                    }
+                }
+                .right{
+                    margin-left: 200px;
+                    margin-bottom: 100px;
+                }
+            }
+            
+        }
+        .section2{
+            .section_inner{
+                .inner_top{
+                    h2{
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 32px;
+                        line-height: 32px;
+                        text-align: center;
+                    }
+                    
+                }
+            }
+            .inner_bottom{
+                align-items: center;
+                flex-direction: column;
+                .inner_item{
+                    padding-top: 0;
+                    p{
+                        width: 573px;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        .footer_bloc1{
+            padding: 92px 0;
+            .footer_bloc1__inner{
+                h2{
+                    font-weight: bold;
+                    font-size: 32px;
+                    line-height: 32px;
+                }
+                a{
+                    margin-left: 100px;
+                }
+            }
+        }
+        .footer_bloc2{
+            padding: 0;
+            .footer_bloc2__inner{
+                display: block;
+                .inner_left{
+                    .left_item1{
+                        a{
+                            img{
+                                padding: 56px 0 33px 30px;
+                            }
+                        }
+                        .bloc{
+                            padding-bottom: 57px;
+                            padding-left: 30px;
+                        }
+                    }
+                    .left_item2{
+                        h6{
+                            padding-top: 56px;
+                            margin-left: 230px;
+                            text-align: end;
+                        }
+                    }
+                }
+                .inner_right{
+                    a{
+                        padding-left: 30px;
+                    }
+                    h6{
+                        padding-bottom: 53px;
+                        margin-top: -78px;
+                        margin-right: 35px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
